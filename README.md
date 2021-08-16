@@ -6,6 +6,7 @@ A website developed with the goal of creating an online presence for me to suppl
 
 <code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg" alt="html"></code>
 <code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" alt="javascript"></code>
+<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" alt="sass"></code>
 
 <code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/bulma/bulma-plain.svg" alt="bulma"></code>
 <code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="react"></code>
@@ -22,6 +23,10 @@ Typically GitHub pages only supports static pages, however this website uses a t
 where in which a custom 404 page is generated, which passes the URL ending onto the original page as it is loaded again, allowing it to use the React structure to decide what page it should be showing.
 
 The GitHub repository for this method can be found [here](https://github.com/rafgraph/spa-github-pages).
+
+## Customization
+
+If you wish to edit any of the colours or create a theme for the website then you just need to edit the colour values located in the [config](https://github.com/Jack-Development/Jack-Development.github.io/blob/master/src/scss/config.scss) file. This features allows for customisation of the website to fit whatever need you wish for it to fufill.
 
 ## Available Scripts
 
