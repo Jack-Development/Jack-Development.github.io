@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Jack-Development.github.io/pages",
   "name": "website-react",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +25,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@creativebulma/bulma-divider": "^1.1.0"
+    "@creativebulma/bulma-divider": "^1.1.0",
+    "gh-pages": "^3.2.3"
   }
 }
