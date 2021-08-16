@@ -1,0 +1,35 @@
+@import "scss/config";
+@import "scss/About";
+
+.App {
+  height: 100vh;
+  text-align: center;
+  background-color: $background-color;
+}
+
+.icon{
+  padding: 2px;
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+}
+.invalidText{
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.footerCopyright{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.hero.is-link {
+  background-color: $primary-color;
+}
+.hero.is-link .navbar-link.is-active, .hero.is-link .navbar-link:hover, .hero.is-link a.navbar-item.is-active, .hero.is-link a.navbar-item:hover{
+  background-color: $primary-color-dark;
+}
