@@ -32,7 +32,7 @@ const About = () => {
 
             <div className={'card column-2-4 m-4'}>
                 <div className={'col'}>
-                    <img src={computer} alt={'Computer'} className={'cardImage'}/>
+                    <img src={computer} alt={'Computer On A Sofa'} className={'cardImage'}/>
                 </div>
                 <div className={'col'}>
                     <div className={'leftPadding'}>
