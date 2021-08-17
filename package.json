@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Jack-Development.github.io/pages",
-  "name": "website-react",
+  "homepage": "http://jack-development.github.io/",
+  "name": "jack-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

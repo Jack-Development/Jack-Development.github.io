@@ -1,35 +1,55 @@
 @import "scss/config";
 @import "scss/About";
+@import "scss/Home";
 
 .App {
-  height: 100vh;
   text-align: center;
   background-color: $background-color;
 }
 
-.icon{
+.content-block{
+  background-color: $background-color;
+  min-height: calc(100vh - 68px);
+}
+
+.icon {
   padding: 2px;
 }
 
-.logo{
+.logo {
   font-size: 20px;
   font-weight: bold;
 }
-.invalidText{
+
+.invalidText {
   font-weight: bold;
   font-size: 32px;
 }
 
-.footerCopyright{
-  position: absolute;
-  bottom: 0;
+.footerContainer{
+  margin-top: -50px;
   width: 100%;
+  padding-top: 20px;
+}
+
+.footerCopyright {
   padding: 10px;
 }
 
 .hero.is-link {
   background-color: $primary-color;
 }
-.hero.is-link .navbar-link.is-active, .hero.is-link .navbar-link:hover, .hero.is-link a.navbar-item.is-active, .hero.is-link a.navbar-item:hover{
+
+.hero.is-link .navbar-link.is-active, .hero.is-link .navbar-link:hover, .hero.is-link a.navbar-item.is-active, .hero.is-link a.navbar-item:hover {
   background-color: $primary-color-dark;
+}
+
+.hero .navbar{
+  background: $primary-color;
+}
+
+.navbar-top-offset{
+  text-align: center;
+  width: 100%;
+  padding-bottom: 30px;
 }
