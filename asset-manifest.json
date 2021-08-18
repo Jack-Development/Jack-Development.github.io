@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.786e7caf.chunk.css",
-    "main.js": "/static/js/main.22cbeadf.chunk.js",
-    "main.js.map": "/static/js/main.22cbeadf.chunk.js.map",
+    "main.css": "/static/css/main.eb7b1d81.chunk.css",
+    "main.js": "/static/js/main.46f29d29.chunk.js",
+    "main.js.map": "/static/js/main.46f29d29.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.735c4389.js",
     "runtime-main.js.map": "/static/js/runtime-main.735c4389.js.map",
     "static/css/2.41953c31.chunk.css": "/static/css/2.41953c31.chunk.css",
@@ -12,10 +12,11 @@
     "static/js/3.b070d1a3.chunk.js.map": "/static/js/3.b070d1a3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.41953c31.chunk.css.map": "/static/css/2.41953c31.chunk.css.map",
-    "static/css/main.786e7caf.chunk.css.map": "/static/css/main.786e7caf.chunk.css.map",
+    "static/css/main.eb7b1d81.chunk.css.map": "/static/css/main.eb7b1d81.chunk.css.map",
     "static/js/2.a4e46bbc.chunk.js.LICENSE.txt": "/static/js/2.a4e46bbc.chunk.js.LICENSE.txt",
     "static/media/CV_Jack_Shilton.4c255301.pdf": "/static/media/CV_Jack_Shilton.4c255301.pdf",
     "static/media/FaceIMG.3a15f5f7.png": "/static/media/FaceIMG.3a15f5f7.png",
+    "static/media/Jabber.c5465384.png": "/static/media/Jabber.c5465384.png",
     "static/media/JapanFlagIMG.dc9a35d2.png": "/static/media/JapanFlagIMG.dc9a35d2.png",
     "static/media/computerIMG.72123e51.png": "/static/media/computerIMG.72123e51.png",
     "static/media/facebookIcon.745dbac2.svg": "/static/media/facebookIcon.745dbac2.svg",
@@ -27,7 +28,7 @@
     "static/js/runtime-main.735c4389.js",
     "static/css/2.41953c31.chunk.css",
     "static/js/2.a4e46bbc.chunk.js",
-    "static/css/main.786e7caf.chunk.css",
-    "static/js/main.22cbeadf.chunk.js"
+    "static/css/main.eb7b1d81.chunk.css",
+    "static/js/main.46f29d29.chunk.js"
   ]
 }
