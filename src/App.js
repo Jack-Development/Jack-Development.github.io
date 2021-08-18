@@ -3,6 +3,7 @@ import './App.scss';
 import React, {useEffect} from "react";
 import Home from './components/Home.js';
 import About from './components/About.js';
+import Portfolio from "./components/Portfolio";
 import {Switch, Route, withRouter} from 'react-router-dom';
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import {faHome, faAddressCard, faUserCircle, faEnvelope} from "@fortawesome/free-solid-svg-icons";
@@ -21,7 +22,7 @@ function App() {
                         <Home/>
                     </Route>
                     <Route exact path={'/portfolio'}>
-                        Portfolio
+                        <Portfolio />
                     </Route>
                     <Route exact path={'/about'}>
                         <About/>

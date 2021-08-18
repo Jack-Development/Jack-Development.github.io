@@ -1,0 +1,46 @@
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.project {
+  background-color: $card-color;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: inline-grid;
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+}
+
+.project-img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom: 1px solid #2f2f2f;
+  object-fit: cover;
+  width: 400px;
+  height: 250px;
+}
+
+.details {
+  vertical-align: center;
+  max-width: 400px;
+  height: 175px;
+  padding: 10px;
+}
+
+.view-button{
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 175px;
+  height: 45px;
+  margin: 10px;
+  background-color: $primary-color;
+  .icon {
+    height: 25px;
+    color: white;
+  }
+  a {
+    color: white;
+  }
+}
