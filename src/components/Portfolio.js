@@ -1,37 +1,27 @@
-import React from "react";
-import marioIMG from '../images/MarioTitle.png';
-import jabberIMG from '../images/Jabber.png'
-import cv from "../resources/CV_Jack_Shilton.pdf";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCopy} from "@fortawesome/free-solid-svg-icons";
+import React, {useEffect} from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faCopy} from '@fortawesome/free-solid-svg-icons';
+import projectInfo from '../components/projects.json';
 
 const Portfolio = () => {
-    const projectInfo = [
-        {
-            link: "https://google.com",
-            sourceLink: "https://google.com",
-            image: marioIMG,
-            altText: "Mario Screenshot",
-            title: "Super Mario Bros C#",
-            text: "This game acted as my submission to my final year project during my time at Sixth Form, alongside\n" +
-                "a writeup that documented the development, bug fixes, the reference system, and other smaller details.",
-        },
-        {
-            link: "https://google.com",
-            sourceLink: "https://google.com",
-            image: jabberIMG,
-            altText: "Jabber Screenshot",
-            title: "Jabber",
-            text: "'Jabber' was a week-long assignment that I was assigned to complete in a pair with Ryan Arrowsmith at the end\n" +
-                "of my first year at the University of Birmingham. I worked mainly on the frontend development, using JavaFX with Scene Builder\n" +
-                "to create the style of the application.",
-        },
-    ]
+    useEffect(() => {
+        setButtons();
+    }, []);
 
-    const renderProject = (project, index) => {
+    function setButtons(){
+        let list = document.getElementsByClassName('view-button');
+        for( let i = 0; i < list.length; i++){
+            if(list[i].getAttribute('href') === ''){
+                list[i].setAttribute('style','display:none;')
+            }
+        }
+    }
+
+    const renderProject = (project) => {
+        let img = require('../images/' + project.shortName + '/' + project.images[0]);
         return (
             <div className={'project'}>
-                <img src={project.image} alt={project.altText} className={'project-img'}/>
+                <img src={img.default} alt={project.altText} className={'project-img'}/>
                 <div className={'details'}>
                     <span>{project.title}</span>
                     <p>{project.text}</p>
@@ -39,11 +29,10 @@ const Portfolio = () => {
                 <br/>
                 <div className={'divider'}/>
                 <div>
-                    <a className={'button view-button'} href={project.link}>
+                    <a className={'button view-button'} id={'view'} href={'/projects/' + project.shortName}>
                         <FontAwesomeIcon icon={faCopy} className={'icon'}/> <a>View</a>
                     </a>
-                    <a className={'button view-button'}
-                       href={project.sourceLink} target={'_blank'} rel={'noopener'}>
+                    <a className={'button view-button'} id={'source'} href={project.sourceLink} target={'_blank'} rel={'noopener'}>
                         <a>&#60; Source /&#62;</a>
                     </a>
                 </div>

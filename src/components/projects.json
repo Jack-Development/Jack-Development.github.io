@@ -1,0 +1,26 @@
+[
+  {
+    "shortName": "mario",
+    "sourceLink": "https://github.com/Jack-Development/SuperMarioBros",
+    "images": ["MarioTitle.png", "gameplay1.png", "gameplay2.png", "gameplay3.png", "gameplay4.png", "devPic.png"],
+    "altText": "Mario Screenshot",
+    "title": "Super Mario Bros C#",
+    "skills": "C#, Windows Forms, Visual Studio, .csv, Excel",
+    "client": "Hereford Sixth Form College",
+    "duration" : "July 2019 - July 2020",
+    "text": "This game acted as my submission to my final year project during my time at Sixth Form, alongside a writeup that documented the development, bug fixes, the reference system, and other smaller details.",
+    "description": "A Windows Form project that utilised Visual Studio development, I recreated the 1985 original version of Super Mario Bros.  The program used a lookup sheet alongside a .csv file, edited using Excel, in order to create a level design system that allowed a massive diversity in level creation and subsequently custom level design, this was the beginning of a simple database system. For this application, I produced a paper that focused on the planning, development, and testing of the product, all the way through from conception to a theoretical release. This project is now planned to be used as an exemplar for students at the Hereford Sixth Form College."
+  },
+  {
+    "shortName": "jabber",
+    "sourceLink": "",
+    "images": ["Jabber.png", "login.png", "theme.png"],
+    "altText": "Jabber Screenshot",
+    "title": "Jabber",
+    "skills": "Java, SQL, SceneBuilder, Git, JavaFX, IntelliJ",
+    "client": "University of Birmingham",
+    "duration" : "10th - 16th May 2021",
+    "text": "'Jabber' was a week-long assignment that I was assigned to complete in a pair with Ryan Arrowsmith at the end of my first year at the University of Birmingham. I worked mainly on the frontend development, using JavaFX with Scene Builder to create the style of the application.",
+    "description": "”Jabber” was a mock social network platform where teams of two were tasked with creating a front and backend service for the social network. We were given a basic database containing information on clients and messages that we would need to query in a secure fashion and present to the end user. This application would also need to be able to update and scale dynamically as users posted new posts or more users signed up for the service."
+  }
+]

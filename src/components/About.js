@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import face from '../images/FaceIMG.png';
 import japanFlag from '../images/JapanFlagIMG.png';
 import computer from '../images/computerIMG.png';
