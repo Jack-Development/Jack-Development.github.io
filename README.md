@@ -28,7 +28,7 @@ The GitHub repository for this method can be found [here](https://github.com/raf
 
 If you wish to edit any of the colours or create a theme for the website then you just need to edit the colour values located in the [config](https://github.com/Jack-Development/Jack-Development.github.io/blob/master/src/scss/config.scss) file. This features allows for customisation of the website to fit whatever need you wish for it to fufill.
 
-In order to add a new project to the site, you need to go into components/projects.json and follow the format of the default projects within that file. You will also have to create a new directory in images/, which has the same name as the "shortName" in the .json file, to store all the pictures for that project.
+In order to add a new project to the site, you need to go into [components/projects.json](https://github.com/Jack-Development/Jack-Development.github.io/blob/master/src/components/projects.json) and follow the format of the default projects within that file. You will also have to create a new directory in [images/](https://github.com/Jack-Development/Jack-Development.github.io/tree/master/src/images), which has the same name as the "shortName" in the .json file, to store all the pictures for that project.
 
 ## Available Scripts
 
