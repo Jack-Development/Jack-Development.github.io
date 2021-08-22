@@ -37,6 +37,7 @@ In the project directory, you can run:
 ### `npm install`
 
 This will install all of the dependencies that are needed to run the React application.
+
 Be aware, this can take some time.
 
 ### `npm start`
