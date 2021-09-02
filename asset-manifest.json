@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.696f4a2b.chunk.css",
-    "main.js": "/static/js/main.5ba6a10d.chunk.js",
-    "main.js.map": "/static/js/main.5ba6a10d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a6b2a470.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a6b2a470.js.map",
+    "main.css": "/static/css/main.300bbca8.chunk.css",
+    "main.js": "/static/js/main.f9096529.chunk.js",
+    "main.js.map": "/static/js/main.f9096529.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b22591d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b22591d1.js.map",
     "static/css/2.98e03631.chunk.css": "/static/css/2.98e03631.chunk.css",
-    "static/js/2.e6838e95.chunk.js": "/static/js/2.e6838e95.chunk.js",
-    "static/js/2.e6838e95.chunk.js.map": "/static/js/2.e6838e95.chunk.js.map",
-    "static/js/3.850d7815.chunk.js": "/static/js/3.850d7815.chunk.js",
-    "static/js/3.850d7815.chunk.js.map": "/static/js/3.850d7815.chunk.js.map",
+    "static/js/2.e5ca92ca.chunk.js": "/static/js/2.e5ca92ca.chunk.js",
+    "static/js/2.e5ca92ca.chunk.js.map": "/static/js/2.e5ca92ca.chunk.js.map",
+    "static/js/3.f0e37cdf.chunk.js": "/static/js/3.f0e37cdf.chunk.js",
+    "static/js/3.f0e37cdf.chunk.js.map": "/static/js/3.f0e37cdf.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.98e03631.chunk.css.map": "/static/css/2.98e03631.chunk.css.map",
-    "static/css/main.696f4a2b.chunk.css.map": "/static/css/main.696f4a2b.chunk.css.map",
-    "static/js/2.e6838e95.chunk.js.LICENSE.txt": "/static/js/2.e6838e95.chunk.js.LICENSE.txt",
+    "static/css/main.300bbca8.chunk.css.map": "/static/css/main.300bbca8.chunk.css.map",
+    "static/js/2.e5ca92ca.chunk.js.LICENSE.txt": "/static/js/2.e5ca92ca.chunk.js.LICENSE.txt",
     "static/media/CV_Jack_Shilton.2966b6d2.pdf": "/static/media/CV_Jack_Shilton.2966b6d2.pdf",
     "static/media/FaceIMG.png": "/static/media/FaceIMG.3a15f5f7.png",
     "static/media/GyrationHopScreenshot.png": "/static/media/GyrationHopScreenshot.fc0efcd6.png",
@@ -35,10 +35,10 @@
     "static/media/theme.png": "/static/media/theme.194d2c88.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6b2a470.js",
+    "static/js/runtime-main.b22591d1.js",
     "static/css/2.98e03631.chunk.css",
-    "static/js/2.e6838e95.chunk.js",
-    "static/css/main.696f4a2b.chunk.css",
-    "static/js/main.5ba6a10d.chunk.js"
+    "static/js/2.e5ca92ca.chunk.js",
+    "static/css/main.300bbca8.chunk.css",
+    "static/js/main.f9096529.chunk.js"
   ]
 }
