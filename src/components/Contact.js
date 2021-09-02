@@ -1,7 +1,6 @@
 import React from 'react';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPhone, faInbox} from "@fortawesome/free-solid-svg-icons";
-import gmailLogo from "../images/Icons/gmailIcon.svg";
+import {FcGoogle} from "react-icons/fc";
+import {FaPhone, FaInbox} from "react-icons/fa";
 
 const Contact = () => {
     return (
@@ -9,7 +8,7 @@ const Contact = () => {
             <div className={'columns'}>
                 <div className={'column is-half'}>
                     <div className={'card contactCard'}>
-                        <FontAwesomeIcon icon={faPhone} className={'faIcon'}/>
+                        <FaPhone size='70' className='faIcon'/>
                         <h2>Phone</h2>
                         <p className={'contactText'}>Due to my personal life, and wanting to keep a divide between my
                             work and social lives, I ask that you refrain from calling or texting my personal phone
@@ -20,13 +19,13 @@ const Contact = () => {
                 </div>
                 <div className={'column'}>
                     <div className={'card contactCard'}>
-                        <FontAwesomeIcon icon={faInbox} className={'faIcon'}/>
+                        <FaInbox size='70' className='faIcon'/>
                         <h2>Email</h2>
                         <p className={'contactText'}>If you wish to contact me in regards to my work then you can contact me at:</p>
                         <a href={'mailto:shiltonjackofficial@gmail.com'}>shiltonjackofficial@gmail.com</a>
                         <p className={'contactText'}> or you can click the button below:</p>
-                        <a className={'button contact-button'} id={'gmailButton'} href={'mailto:shiltonjackofficial@gmail.com'} target={'_blank'} rel={'noreferrer noopener'}>
-                            <img src={gmailLogo} alt={'Gmail Logo'}/> <a>Gmail</a>
+                        <a className='button contact-button gmailButton' href='mailto:shiltonjackofficial@gmail.com' target='_blank' rel='noreferrer noopener'>
+                            <FcGoogle className='icon'/> <p>Gmail</p>
                         </a>
                     </div>
                 </div>

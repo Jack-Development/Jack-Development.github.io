@@ -1,10 +1,6 @@
 import React from 'react';
-import gmailLogo from '../images/Icons/gmailIcon.svg';
-import facebookLogo from '../images/Icons/facebookIcon.svg';
-import linkedInLogo from '../images/Icons/linkedInIcon.svg';
-import githubLogo from '../images/Icons/githubIcon.svg';
-import {faCopy} from '@fortawesome/free-solid-svg-icons';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {FcGoogle} from 'react-icons/fc';
+import {FaFacebook, FaLinkedin, FaGithub, FaFileAlt} from 'react-icons/fa';
 import cv from '../resources/CV_Jack_Shilton.pdf';
 
 const Home = () => {
@@ -19,29 +15,31 @@ const Home = () => {
                 </div>
             </section>
             <div>
-                <a id={'contact'} className={'button contact-button'} id={'gmailButton'} href={'mailto:shiltonjackofficial@gmail.com'} target={'_blank'} rel={'noreferrer noopener'}>
-                    <img src={gmailLogo} alt={'Gmail Logo'}/> <a>Gmail</a>
-                </a>
-                <a id={'contact'} className={'button contact-button'} id={'facebookButton'} href={'https://www.facebook.com/JacShilton/'} target={'_blank'} rel={'noreferrer noopener'}>
-                    <img src={facebookLogo} alt={'Facebook Logo'}/> <a>Facebook</a>
-                </a>
-                <a id={'contact'} className={'button contact-button'} id={'linkedInButton'} href={'https://uk.linkedin.com/in/jack-shilton-60aba7197'} target={'_blank'} rel={'noreferrer noopener'}>
-                    <img src={linkedInLogo} alt={'LinkedIn Logo'}/> <a>LinkedIn</a>
-                </a>
-                <a id={'contact'} className={'button contact-button'} id={'gitHubButton'} href={'https://github.com/Jack-Development'} target={'_blank'} rel={'noreferrer noopener'}>
-                    <img src={githubLogo} alt={'Github Logo'}/> <a>GitHub</a>
-                </a>
+                <LinkButton linkAddress='mailto:shiltonjackofficial@gmail.com' icon={<FcGoogle className='icon'/>} class='gmailButton' linkName='Gmail'/>
+                <LinkButton linkAddress='https://www.facebook.com/JacShilton/' icon={<FaFacebook className='icon'/>} class='facebookButton' linkName='Facebook'/>
+                <LinkButton linkAddress='https://uk.linkedin.com/in/jack-shilton-60aba7197' icon={<FaLinkedin className='icon'/>} class='linkedInButton' linkName='LinkedIn'/>
+                <LinkButton linkAddress='https://github.com/Jack-Development' icon={<FaGithub className='icon'/>} class='gitHubButton' linkName='GitHub'/>
             </div>
             <div>
-                <a id={'contact'} className={'button cv-button'} id={'cvButton'} href={cv} target={'_blank'} rel={'noreferrer noopener'}>
-                    <FontAwesomeIcon icon={faCopy} className={'icon'}/> <a>View CV</a>
+                <a className={'button cv-button'} href={cv} target={'_blank'} rel={'noreferrer noopener'}>
+                    <FaFileAlt className='icon'/> <p> View CV</p>
                 </a>
-                <a id={'contact'} className={'button cv-button'} id={'cvButton'} href={'https://github.com/Jack-Development/Jack-Development.github.io'} target={'_blank'} rel={'noreferrer noopener'}>
-                    <a>&#60; Source /&#62;</a>
+                <a className={'button cv-button'} href={'https://github.com/Jack-Development/Jack-Development.github.io'} target={'_blank'} rel={'noreferrer noopener'}>
+                    <p>&#60; Source /&#62;</p>
                 </a>
             </div>
         </div>
     );
+}
+
+class LinkButton extends React.Component{
+    render() {
+        return(
+            <a className={'button contact-button ' + this.props.class} href={this.props.linkAddress} target={'_blank'} rel={'noreferrer noopener'}>
+                {this.props.icon} <p>{this.props.linkName}</p>
+            </a>
+        )
+    }
 }
 
 export default Home;
