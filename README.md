@@ -34,6 +34,12 @@ In order to add a new project to the site, you need to go into [components/proje
 
 In the project directory, you can run:
 
+### `npm install`
+
+This will install all of the dependencies that are needed to run the React application.
+
+Be aware, this can take some time.
+
 ### `npm start`
 
 Runs the app in the development mode.\
