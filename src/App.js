@@ -25,6 +25,18 @@ function App() {
                     <Route exact path={'/contact'} component={Contact}/>
                     {projects.map(projects => (
                         <Route path={'/projects/' + projects.shortName} component={Project} key={'{projects}'}/>))}
+                    <Route exact path={'/facebook'} component={() => {
+                        window.location.href='https://www.facebook.com/JacShilton/';
+                        return null;
+                    }}/>
+                    <Route exact path={'/linkedin'} component={() => {
+                        window.location.href='https://www.linkedin.com/in/jack-shilton-60aba7197/';
+                        return null;
+                    }}/>
+                    <Route exact path={'/github'} component={() => {
+                        window.location.href='https://github.com/Jack-Development';
+                        return null;
+                    }}/>
                     <Route path={'*'} component={NotFound}/>
                 </Switch>
             </div>
