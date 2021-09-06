@@ -22,5 +22,17 @@
     "duration" : "10th - 16th May 2021",
     "text": "'Jabber' was a week-long assignment that I was assigned to complete in a pair with Ryan Arrowsmith at the end of my first year at the University of Birmingham. I worked mainly on the frontend development, using JavaFX with Scene Builder to create the style of the application.",
     "description": "”Jabber” was a mock social network platform where teams of two were tasked with creating a front and backend service for the social network. We were given a basic database containing information on clients and messages that we would need to query in a secure fashion and present to the end user. This application would also need to be able to update and scale dynamically as users posted new posts or more users signed up for the service."
+  },
+  {
+    "shortName": "modelling",
+    "sourceLink": "",
+    "images": ["Orc1.png", "Orc2.png", "TheCreature.png", "flying.png"],
+    "altText": "Example Screenshot",
+    "title": "3D Modelling",
+    "skills": "Blender, Texturing/UV Maps, Rigging, 3D Design",
+    "client": "Various",
+    "duration" : "Since 2016",
+    "text": "Over the course of various projects I have encountered many that require the use of 3D modelling and rigging, as such I have come to develop experience in this field, creating many different objects and games through it.",
+    "description": "Currently, my primary usage of 3D modelling is the fabrication of Dungeons and Dragons props that I will 3D print and use in physical sessions of the game, as can be seen by the Orc that I modelled, rigged, posed, and printed. I have also worked on various forms of environment creation, the most prominent being 'The Creature', which was a short video that I used to understand how to create an atmosphere in a world, which worked to great effect. I have also experimented in low poly modelling, as seen by the plane model, which I created for an unreleased flying mobile game."
   }
 ]

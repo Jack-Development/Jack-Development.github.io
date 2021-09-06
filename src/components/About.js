@@ -74,6 +74,8 @@ const About = () => {
                         </tr>
                         <tr>
                             <td>JavaScript</td>
+                            <td> </td>
+                            <td>Blender</td>
                         </tr>
                         </tbody>
                     </table>
