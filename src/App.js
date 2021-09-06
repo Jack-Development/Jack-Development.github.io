@@ -11,6 +11,7 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faHome, faAddressCard, faUserCircle, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import projects from './components/projects.json';
+import cv from './resources/CV_Jack_Shilton.pdf';
 
 function App() {
     return (
@@ -25,6 +26,10 @@ function App() {
                     <Route exact path={'/contact'} component={Contact}/>
                     {projects.map(projects => (
                         <Route path={'/projects/' + projects.shortName} component={Project} key={'{projects}'}/>))}
+                    <Route exact path={'/cv'} component={() => {
+                        window.location.href=cv;
+                        return null;
+                    }}/>
                     <Route exact path={'/facebook'} component={() => {
                         window.location.href='https://www.facebook.com/JacShilton/';
                         return null;
