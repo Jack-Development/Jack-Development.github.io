@@ -26,10 +26,6 @@ function App() {
                     <Route exact path={'/contact'} component={Contact}/>
                     {projects.map(projects => (
                         <Route path={'/projects/' + projects.shortName} component={Project} key={'{projects}'}/>))}
-                    <Route exact path={'/cv'} component={() => {
-                        window.location.href=cv;
-                        return null;
-                    }}/>
                     <Route exact path={'/facebook'} component={() => {
                         window.location.href='https://www.facebook.com/JacShilton/';
                         return null;
@@ -41,6 +37,12 @@ function App() {
                     <Route exact path={'/github'} component={() => {
                         window.location.href='https://github.com/Jack-Development';
                         return null;
+                    }}/>
+                    <Route exact path={'/cv'} component={() => {
+                        window.location.href=cv;
+                        return (
+                            <br/>
+                        );
                     }}/>
                     <Route path={'*'} component={NotFound}/>
                 </Switch>
