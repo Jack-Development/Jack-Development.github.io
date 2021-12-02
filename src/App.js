@@ -38,6 +38,10 @@ function App() {
                         window.location.href='https://github.com/Jack-Development';
                         return null;
                     }}/>
+                    <Route exact path={'/EPQ'} component={() => {
+                        window.location.href='https://docs.google.com/document/d/1Eb64iFud7CGikWxBkYaNNAKvhO51W4Nq4I5v5dp9EBY/edit?usp=sharing';
+                        return null;
+                    }}/>
                     <Route exact path={'/cv'} component={() => {
                         window.location.href=cv;
                         return (
