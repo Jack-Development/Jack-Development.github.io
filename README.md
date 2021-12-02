@@ -1,4 +1,4 @@
-# [jack-development.github.io](jack-development.github.io)
+# [jack-development.github.io](https://jack-development.github.io)
 
 A website developed with the goal of creating an online presence for me to supply to clients, colleagues, or potential employers. It also served as an introduction into using React alongside GitHub pages and deploying website builds from React.
 
