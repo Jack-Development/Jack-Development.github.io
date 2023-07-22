@@ -90,19 +90,20 @@ const About = () => {
                         <h2>My Journey Across Language</h2>
                     </div>
                     <h6>
-                        During Sixth Form, I chose to begin <b>learning the language of Japanese</b>,
-                        <b><i> independent</i></b> from my education. I started by studying with Genki I, before
-                        eventually moving onto Colloquial Japanese, and then beginning private tutoring lessons. Since
-                        then I have been continuously working to improve my speaking, listening, and writing of the
-                        language, in whatever forms I can.
+                        During my time at Sixth Form, I embarked on a journey of <b>learning the Japanese language</b>, completely 
+                        <b><i>independent</i></b> of my formal education. Beginning with the Genki I textbook, I advanced to 
+                        Colloquial Japanese, before finally opting for private tutoring sessions. Throughout this period, 
+                        I was unwavering in my commitment to enhance my Japanese speaking, listening, and writing abilities in 
+                        every way possible.
                         <br/>
-                        Currently I am likely ranked <b>between N5 and N4</b> (In context of the JLPT)
+                        After a fruitful journey of learning, I am now proudly ranked <b>between N3 and N2</b> as per the JLPT's evaluation.
                         <br/>
                         <br/>
-                        I hope to take the year abroad, from my degree, <b>in Japan</b>, so I can experience
-                        the language and culture
-                        personally. If so, then I will be changing this section to detail the time I spent there and
-                        what I did.
+                        The aspiration of experiencing the Japanese culture and language first-hand drove me to take a year abrod during my degree 
+                        to live <b>in Japan</b>. I had the good fortune of spending that year at the esteemed Keio University. Immersed in 
+                        the language, culture, and everyday life of Japan, I was able to gain a nuanced understanding and appreciation 
+                        of the country and its people.
+                        <br/>
                     </h6>
                 </div>
                 <div className={'col'}>
