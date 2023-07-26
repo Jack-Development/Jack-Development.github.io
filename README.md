@@ -1,48 +1,49 @@
-# [Jack-Development](https://jack-development.github.io) Portfolio Website 🌐
-
-Welcome to [jack-development.github.io](https://jack-development.github.io) - a React-based website aimed at showcasing my skills, projects, and experiences to clients, colleagues, and potential employers. 
-
-This project also serves as a testament to my proficiency with React and my ability to deploy website builds from React on GitHub Pages.
+<h2 align="center">
+  Portfolio Website<br/>
+  <a href="https://jack-development.github.io" target="_blank">Jack-Development.github.io</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img1.png" />
+</div>
 
 ## Overview 📝
 
-This is a Single Page Application (SPA), which means the webpage is always loaded with the same code, and the content changes based on the URL provided. Although GitHub Pages typically only supports static pages, this website uses a workaround developed by [Rafael Pedicini](https://github.com/rafgraph) that allows it to behave like a SPA. Learn more about this method [here](https://github.com/rafgraph/spa-github-pages).
-
-## Features 🎮
-
-- Showcases my skills, projects, and experiences
-- Fully customizable colors and themes
-- Easy to add new projects to the site
-- Deployed using GitHub Pages
+Welcome to my personal portfolio project! This website showcases some of my GitHub projects, my resume, and my technical skills. You can visit the live version here: [Jack-Development.github.io](https://www.jack-development.github.io/).
 
 ## Development 💻
 
-This project was developed using the following tools:
+This project was developed with love using the following tools:
 
-<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg" alt="html"></code>
-<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" alt="javascript"></code>
-<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" alt="sass"></code>
-<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/bulma/bulma-plain.svg" alt="bulma"></code>
-<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="react"></code>
-<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-plain.svg" alt="ubuntu"></code>
+<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="React.js"></code>
+<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" alt="Node.js"></code>
+<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" alt="Express.js"></code>
+<code><img height="50" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" alt="CSS3"></code>
 <code><img height="50" src="https://github.com/Jack-Development/Jack-Development/blob/main/resources/IntelliJ_Icon.svg" alt="IntelliJ"></code>
 
-## Available Scripts ⚙️
+## Features 🎮
 
-In the project directory, you can run:
+- Multi-page layout
+- Showcases my skills, projects, and experiences
+- Easy to add new projects to the site
+- Fully Responsive
+- GitHub Pages support
 
-### `npm install`
+## Setup Instructions ⚙️
 
-Installs all of the dependencies that are needed to run the React application.
+1. Installation: `npm install`
 
-### `npm start`
+2. In the project directory, you can run: `npm start`
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
+3. In the project directory, you can run: `npm run deploy` to publish to GitHub pages
 
-### `npm run deploy`
+`npm start` runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
 
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The app is then automatically deployed to the linked GitHub repository as a separate branch, which can be selected as the source for GitHub Pages.
+## Support the Original Template 💕
 
-## License 📄
+If you love the template, please show support to the original creator:
 
-This project is licensed under the MIT License. Please see the [LICENSE](LICENSE) file for more details.
+<a href="https://github.com/soumyajit4419">
+  <img src="https://contrib.rocks/image?repo=soumyajit4419/Portfolio&max=1"/>
+</a>
