@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.a584d6e9.css",
-    "main.js": "/static/js/main.f72fbc1b.js",
+    "main.js": "/static/js/main.b78ad132.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/home-main.svg": "/static/media/home-main.c20252dae9e0cd368be3b581366e3a09.svg",
-    "static/media/avatar.svg": "/static/media/avatar.59ac538a3b724c032506cc59e00b404d.svg",
     "static/media/home-bg.jpg": "/static/media/home-bg.18f0984a774e79c3c6c9.jpg",
     "static/media/pre.svg": "/static/media/pre.996f93ac75d44f60341b.svg",
+    "static/media/avatar.png": "/static/media/avatar.03680e769093f62234c4.png",
     "static/media/about.png": "/static/media/about.6b4db73db4a5a7d4b47f.png",
     "static/media/minesweeper.png": "/static/media/minesweeper.1f31985c3405a4f1474b.png",
     "static/media/inventory.png": "/static/media/inventory.5bfbb5319c7147b5716f.png",
@@ -19,12 +19,12 @@
     "static/media/marioC.png": "/static/media/marioC.4a4d22ed86c34cd4f1c9.png",
     "index.html": "/index.html",
     "main.a584d6e9.css.map": "/static/css/main.a584d6e9.css.map",
-    "main.f72fbc1b.js.map": "/static/js/main.f72fbc1b.js.map",
+    "main.b78ad132.js.map": "/static/js/main.b78ad132.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a584d6e9.css",
-    "static/js/main.f72fbc1b.js"
+    "static/js/main.b78ad132.js"
   ]
 }
