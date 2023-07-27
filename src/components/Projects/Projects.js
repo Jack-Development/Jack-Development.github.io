@@ -43,9 +43,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={minesweeper}
-              title="Minesweeper-React"
-              description="An engaging recreation of the classic Minesweeper game, built using React, providing basic game interaction and grid display features."
-              ghLink="https://github.com/Jack-Development/minesweeper-react"
+              title="ReactSweeper"
+              description="ReactSweeper is a compelling, user-friendly adaptation of the classic Minesweeper game, designed with React. This modern take on a classic game is not just a fun pastime, but also a showcase of what can be achieved with React."
+              ghLink="https://github.com/Jack-Development/ReactSweeper"
+              demoLink="https://jack-development.github.io/ReactSweeper"
             />
           </Col>
 
