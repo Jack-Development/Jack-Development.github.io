@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import redditfetch from "../../Assets/Projects/redditfetch.png"
 import labVision from "../../Assets/Projects/labvision.png";
 import text2sentiment from "../../Assets/Projects/text2sentiment.png";
 import minesweeper from "../../Assets/Projects/minesweeper.png";
@@ -21,6 +22,15 @@ function Projects() {
           Take a peek at some of the projects I've been involved with recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={redditfetch}
+                title="RedditFetch"
+                description="RedditFetch streamlines the collection and organization of Reddit user content with Python and PRAW. It efficiently retrieves posts, assigns unique identifiers, and structures data for optimal analysis."
+                ghLink="https://github.com/Jack-Development/RedditFetch"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={text2sentiment}
