@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bc1d1cba.css",
-    "main.js": "/static/js/main.995c6556.js",
+    "main.js": "/static/js/main.1b395970.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/home-main.svg": "/static/media/home-main.c20252dae9e0cd368be3b581366e3a09.svg",
@@ -11,20 +11,21 @@
     "static/media/about.png": "/static/media/about.6b4db73db4a5a7d4b47f.png",
     "static/media/minesweeper.png": "/static/media/minesweeper.1f31985c3405a4f1474b.png",
     "static/media/inventory.png": "/static/media/inventory.5bfbb5319c7147b5716f.png",
-    "static/media/CV_Jack_Shilton.pdf": "/static/media/CV_Jack_Shilton.fbf4990d828d9a470b10.pdf",
+    "static/media/CV_Jack_Shilton.pdf": "/static/media/CV_Jack_Shilton.cda3da50c8d02b7f81a7.pdf",
     "static/media/website.png": "/static/media/website.5d3fda16ea9c280104b7.png",
     "static/media/text2sentiment.png": "/static/media/text2sentiment.30623fe409f641cd72bd.png",
     "static/media/advent.png": "/static/media/advent.3df709d026c28162318a.png",
     "static/media/labvision.png": "/static/media/labvision.d89263c2fc093bdf3f30.png",
     "static/media/marioC.png": "/static/media/marioC.4a4d22ed86c34cd4f1c9.png",
+    "static/media/redditfetch.png": "/static/media/redditfetch.23d546e1b544e34b89a6.png",
     "index.html": "/index.html",
     "main.bc1d1cba.css.map": "/static/css/main.bc1d1cba.css.map",
-    "main.995c6556.js.map": "/static/js/main.995c6556.js.map",
+    "main.1b395970.js.map": "/static/js/main.1b395970.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc1d1cba.css",
-    "static/js/main.995c6556.js"
+    "static/js/main.1b395970.js"
   ]
 }
