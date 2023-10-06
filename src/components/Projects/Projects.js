@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import redditfetch from "../../Assets/Projects/redditfetch.png"
+import dolphinHook from "../../Assets/Projects/dolphinHook.png";
+import redditfetch from "../../Assets/Projects/redditfetch.png";
 import labVision from "../../Assets/Projects/labvision.png";
 import text2sentiment from "../../Assets/Projects/text2sentiment.png";
 import minesweeper from "../../Assets/Projects/minesweeper.png";
@@ -22,6 +23,14 @@ function Projects() {
           Take a peek at some of the projects I've been involved with recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={dolphinHook}
+                title="DolphinHook"
+                description="Seamlessly tap into Dolphin Emulator's memory, enabling custom module creation. A robust tool designed for developers seeking advanced integration and customization capabilities."
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={redditfetch}
